@@ -32,11 +32,11 @@ flowchart TD
 
 | القاعدة | الوصف | الفئة الأمنية |
 |---|---|---|
-| `RULE_01_ANOMALOUS_NEW_RECIPIENT` | تحويل كبير نسبياً لمستلم جديد | Behavioral baselining |
+| `RULE_01_NEW_RECIPIENT` | تحويل كبير نسبياً لمستلم جديد | Behavioral baselining |
 | `RULE_02_HIGH_VELOCITY` | سرعة تحويلات غير طبيعية لنفس الشخص خلال فترة قصيرة | Velocity control |
 | `RULE_03_ABNORMAL_AMOUNT` | مبلغ أكبر من متوسط تحويلات هذا المستخدم بالتحديد | Behavioral baselining |
 | `RULE_04_KNOWN_SCAM_FEE` | مبلغ أو كلمة تطابق كتالوج احتيال عراقي موثّق | Signature-based |
-| `RULE_05_OFF_HOURS` | التحويل خارج الساعات المعتادة لهذا المستخدم بالتحديد | Behavioral baselining |
+| `RULE_05_SUSPICIOUS_TIME` | التحويل خارج الساعات المعتادة لهذا المستخدم بالتحديد | Behavioral baselining |
 
 **ملاحظة تصميمية مهمة**: كل قاعدة تعتمد على **خط أساس شخصي لكل مستخدم** (`user baseline`) وليس عتبة ثابتة للجميع — هذا يقلل الإنذارات الكاذبة على معاملات شرعية (هدية، دفعة سنوية، مناوبة ليلية). القرار النهائي بالتدخل يُبنى على **تجميع نقاط القواعد المنطلقة مقابل عتبة محددة** — القيم الدقيقة موجودة بـ `risk_engine.py`.
 

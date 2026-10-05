@@ -1,0 +1,6 @@
+streamlit
+pydantic
+groq
+dotenv
+scikit-learn
+google-genai

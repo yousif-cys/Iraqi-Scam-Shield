@@ -1,0 +1,69 @@
+{
+  "metrics": {
+    "total_transactions": 220,
+    "true_positives": 57,
+    "true_negatives": 159,
+    "false_positives": 0,
+    "false_negatives": 4,
+    "precision": 1.0,
+    "recall": 0.9344,
+    "false_positive_rate": 0.0,
+    "f1_score": 0.9661,
+    "accuracy": 0.9818,
+    "avg_latency_ms": 19.76,
+    "total_interventions": 57,
+    "validated_llm_outputs": 57
+  },
+  "scam_breakdown": {
+    "PRIZE_FEE": {
+      "total": 27,
+      "detected": 27
+    },
+    "URGENT_IMPERSONATION": {
+      "total": 18,
+      "detected": 14
+    },
+    "FAKE_SUPPORT": {
+      "total": 16,
+      "detected": 16
+    }
+  },
+  "sample_llm_outputs": [
+    {
+      "tx_id": "06170f04-8bcc-43d4-9c4e-04c62dfcfb95",
+      "scam_category": "PRIZE_FEE",
+      "amount_iqd": 75000.0,
+      "recipient_phone": "07803701738",
+      "note": "إجراءات استلام الجائزة",
+      "risk_score": 0.5,
+      "triggered_rules": [
+        "RULE_03_KNOWN_SCAM_FEE"
+      ],
+      "advice": {
+        "headline": "طوّل بالك عيني، هالمبلغ خطر",
+        "scammer_next_move": "رح يگولك إنو الجائزة مستحقة ولازم تدفع الرسوم بسرعة",
+        "recommended_action": "دير بالك ورفض التحويل فوراً وتكلم الدعم",
+        "confidence_level": 0.92,
+        "is_fallback": false
+      }
+    },
+    {
+      "tx_id": "5d7b3ab0-e4b5-45dc-accb-1b29fff076a8",
+      "scam_category": "URGENT_IMPERSONATION",
+      "amount_iqd": 476500.0,
+      "recipient_phone": "07723270621",
+      "note": "تحويل طارئ – مدير عام",
+      "risk_score": 0.45,
+      "triggered_rules": [
+        "RULE_01_ANOMALOUS_NEW_RECIPIENT"
+      ],
+      "advice": {
+        "headline": "إنتبه! تحويل كبير لمستلم جديد",
+        "scammer_next_move": "النصاب رح يضغط عليك ويطلب كود التفعيل أو يخلّيك تسوي تحويل أسرع",
+        "recommended_action": "ألغي التحويل فوراً وتواصل مع خدمة العملاء لتأكيد الطلب",
+        "confidence_level": 0.92,
+        "is_fallback": false
+      }
+    }
+  ]
+}

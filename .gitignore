@@ -1,0 +1,9 @@
+# تجاهل ملفات البيئة السرية
+.env
+__pycache__/
+*.pyc
+venv/
+*.zip
+.streamlit/secrets.toml
+.agents/
+sklearn-pypi-package/

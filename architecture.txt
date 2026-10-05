@@ -1,0 +1,13 @@
+app.py                    ← الواجهة (Streamlit UI)
+risk_engine.py            ← منطق الكشف (هذا الأهم لك)
+coach_agent.py            ← طبقة LLM (التوجيه)
+ai_coach.py               ← (يبان تكرار وظيفي مع coach_agent.py؟)
+config.py                 ← إعدادات
+finance_ops.py            ← ؟
+data_generator.py         ← توليد بيانات synthetic
+evaluate_model.py         ← التقييم (precision/recall)
+benchmark.py              ← ؟
+transactions.json         ← البيانات
+scam_catalogue.json       ← كتالوج الاحتيال
+audit_log.json            ← سجل القرارات
+main_api.py                ← API منفصل؟

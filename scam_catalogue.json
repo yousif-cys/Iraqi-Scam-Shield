@@ -1,0 +1,78 @@
+{
+  "catalogue_version": "1.0.0",
+  "region": "Iraq",
+  "currency": "IQD",
+  "scam_types": [
+    {
+      "id": "SCAM_01_FAKE_SUPPORT",
+      "name": "Fake Customer Support (OTP/Safe Account)",
+      "name_ar": "انتحال صفة دعم زين كاش (حساب الأمان الوهمي / سرقة الـ OTP)",
+      "description": "Scammer calls the victim impersonating ZainCash/QiCard compliance or customer care. They claim the wallet is compromised or undergoing mandatory audit, urging the victim to transfer all funds to a temporary 'safe security wallet' (حساب أمان) or extract OTP credentials.",
+      "urgency_level": "CRITICAL",
+      "indicators": {
+        "high_velocity": true,
+        "is_new_recipient": true,
+        "amount_percentage_of_balance": "80% - 100%",
+        "trigger_keywords_ar": [
+          "خدمة الزبائن",
+          "حساب أمان",
+          "تجميد المحفظة",
+          "رمز التأكيد",
+          "تحديث بيانات",
+          "فريق الأمان"
+        ]
+      },
+      "typical_script_ar": "السلام عليكم عيني، وياك مصطفى من قسم الرقابة والأمان بشركة زين كاش. محفظتك بيها محاولة اختراق وإذا ما تحول رصيدك هسة لحساب الحماية المؤقت راح يتقفل الحساب وتخسر فلوسك.",
+      "recommended_coach_warning_ar": "دير بالك عيوني! موظفي زين كاش نهائياً ميعاملون هيج ولا يطلبون تحويل لحساب أمان. هذا نصاب 100% يريد يبوگ فلوسك. اقفل الخط ومتحول أي دينار."
+    },
+    {
+      "id": "SCAM_02_PRIZE_FEE",
+      "name": "Fake Prize Processing Fee",
+      "name_ar": "رسوم استلام الجائزة الوهمية (يانصيب أو سيارة)",
+      "description": "Victim receives WhatsApp/Telegram or SMS message claiming they won 10,000,000 IQD or a car from a national lottery or telecom promo, but must pay an advance 'tax, delivery, or processing fee' (رسوم استلام/ضريبة) to a mobile wallet to claim it.",
+      "urgency_level": "HIGH",
+      "indicators": {
+        "high_velocity": false,
+        "is_new_recipient": true,
+        "amount_range_iqd": [
+          25000,
+          250000
+        ],
+        "trigger_keywords_ar": [
+          "مبروك ربحت",
+          "جائزة كبرى",
+          "رسوم الشحن",
+          "ضريبة الاستلام",
+          "سحب القرعة"
+        ]
+      },
+      "typical_script_ar": "ألف مبروك! رقمك فاز بجائزة 10 ملايين دينار عراقي من مسابقة زين. لاستلام الجائزة الرجاء تحويل رسوم المعاملة 50,000 دينار إلى المحفظة المعتمدة.",
+      "recommended_coach_warning_ar": "لتصدگ يا غالي! ماكو جائزة حقيقية تطلب منك تدفع فلوس مقدماً حتى تستلمها. هاي حيلة معروفة، إذا حولت الفلوس مراح تستلم ولا فلس."
+    },
+    {
+      "id": "SCAM_03_URGENT_IMPERSONATION",
+      "name": "Urgent Transfer (Impersonating a Friend/Relative)",
+      "name_ar": "انتحال صفة صديق أو قريب في ظرف طارئ (حادث / مستشفى)",
+      "description": "Scammer hacks or clones a friend or family member's social account (WhatsApp/Facebook) and frantically requests immediate money to a 3rd-party wallet number under the guise of a medical emergency or car accident.",
+      "urgency_level": "HIGH",
+      "indicators": {
+        "high_velocity": true,
+        "is_new_recipient": true,
+        "amount_range_iqd": [
+          100000,
+          750000
+        ],
+        "trigger_keywords_ar": [
+          "مستعجل فدوة",
+          "سويت حادث",
+          "بالمستشفى",
+          "حول لهالرقم",
+          "ارجعهن بالليل",
+          "ضروري هسة"
+        ]
+      },
+      "typical_script_ar": "اخوي فدوة اروحلكم اني سويت حادث سيارة هسة بالكرادة ومحتاج 250 ألف بسرعة للمستشفى، محفظتي واگفة حول على رقم صديقي هذا بسرعة وارجعهن إلك بالليل.",
+      "recommended_coach_warning_ar": "صبرك عيوني لحظة! الرقم اللي دتحول له مو رقم صاحبك. هواي حسابات دتتهكر وينتحلون صفة المعارف. خابر صاحبك اتصال عادي وتأكد منه بنفسك قبل ما تدز فلس."
+    }
+  ]
+}

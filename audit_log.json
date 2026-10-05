@@ -1,0 +1,1465 @@
+[
+  {
+    "timestamp": "2026-09-26T01:54:12.048595+00:00",
+    "transaction_id": "LIVE-1790387649",
+    "user_id": "U01",
+    "recipient_phone": "07801234567",
+    "amount_iqd": 50000.0,
+    "note": "رسوم استلام الجائزة",
+    "risk_score": 0.5,
+    "requires_intervention": true,
+    "triggered_rules": [
+      "RULE_03_KNOWN_SCAM_FEE"
+    ],
+    "rule_details": {
+      "RULE_03_KNOWN_SCAM_FEE": "Amount 50,000 IQD matches catalogued Iraqi scam fee to new recipient 07801234567; Transfer note contains known scam keyword(s): رسوم, جائزة"
+    },
+    "ml_anomaly_score": 0.1586,
+    "layer2_advice": {
+      "headline": "دير بالك، هالمبلغ خطر!",
+      "scammer_next_move": "راح يگول لك إنو لازم تدفع رسوم إضافية أو تزوّد رقم حساب ثاني لتأكيد الجائزة",
+      "recommended_action": "لا تحول ولا تعطي أي معلومات، كول على خدمة العملاء فوراً",
+      "confidence_level": 0.93,
+      "is_fallback": false
+    },
+    "latency_ms": 2664.41,
+    "pausepoint_state": "PROCEEDED_ON_USER_RISK",
+    "resolution": "PROCEEDED_ON_USER_RISK",
+    "outcome": "USER_OVERRIDE_WARNING",
+    "user_feedback": "User overrode safety warning to proceed at own risk.",
+    "resolved_at": "2026-09-26T01:54:33.321222+00:00"
+  },
+  {
+    "timestamp": "2026-09-26T01:54:58.036314+00:00",
+    "transaction_id": "LIVE-1790387696",
+    "user_id": "U01",
+    "recipient_phone": "07801234567",
+    "amount_iqd": 15000.0,
+    "note": "رسوم استلام الجائزة",
+    "risk_score": 0.5,
+    "requires_intervention": true,
+    "triggered_rules": [
+      "RULE_03_KNOWN_SCAM_FEE"
+    ],
+    "rule_details": {
+      "RULE_03_KNOWN_SCAM_FEE": "Transfer note contains known scam keyword(s): رسوم, جائزة"
+    },
+    "ml_anomaly_score": 0.1482,
+    "layer2_advice": {
+      "headline": "دير بالك! التحويل شكله نصب",
+      "scammer_next_move": "النصاب رح يگولك إنو الفلوس توصل فوراً ويطلب منك معلومات إضافية أو يضغط عليك تسوي تحويل ثاني",
+      "recommended_action": "ألغي التحويل الآن وتواصل مع خدمة العملاء لتأكيد الأمان",
+      "confidence_level": 0.92,
+      "is_fallback": false
+    },
+    "latency_ms": 1338.21,
+    "pausepoint_state": "PROCEEDED_ON_USER_RISK",
+    "resolution": "PROCEEDED_ON_USER_RISK",
+    "outcome": "USER_OVERRIDE_WARNING",
+    "user_feedback": "User overrode safety warning to proceed at own risk.",
+    "resolved_at": "2026-09-26T01:55:19.982707+00:00"
+  },
+  {
+    "timestamp": "2026-09-26T01:55:37.380414+00:00",
+    "transaction_id": "LIVE-1790387737",
+    "user_id": "U01",
+    "recipient_phone": "07801234567",
+    "amount_iqd": 15000.0,
+    "note": "صديقي ",
+    "risk_score": 0,
+    "requires_intervention": false,
+    "triggered_rules": [],
+    "rule_details": {},
+    "ml_anomaly_score": 0.1482,
+    "layer2_advice": null,
+    "latency_ms": 263.51,
+    "pausepoint_state": "APPROVED_AUTO",
+    "resolution": "APPROVED_AUTO",
+    "outcome": "TRANSACTION_CLEAN",
+    "user_feedback": null
+  },
+  {
+    "timestamp": "2026-09-26T01:55:51.895997+00:00",
+    "transaction_id": "LIVE-1790387751",
+    "user_id": "U01",
+    "recipient_phone": "07801234567",
+    "amount_iqd": 15000.0,
+    "note": "خدمة عملاء ",
+    "risk_score": 0,
+    "requires_intervention": false,
+    "triggered_rules": [],
+    "rule_details": {},
+    "ml_anomaly_score": 0.1482,
+    "layer2_advice": null,
+    "latency_ms": 167.74,
+    "pausepoint_state": "APPROVED_AUTO",
+    "resolution": "APPROVED_AUTO",
+    "outcome": "TRANSACTION_CLEAN",
+    "user_feedback": null
+  },
+  {
+    "timestamp": "2026-09-26T01:55:54.786451+00:00",
+    "transaction_id": "LIVE-1790387754",
+    "user_id": "U01",
+    "recipient_phone": "07801234567",
+    "amount_iqd": 15000.0,
+    "note": "خدمة عملاء ",
+    "risk_score": 0,
+    "requires_intervention": false,
+    "triggered_rules": [],
+    "rule_details": {},
+    "ml_anomaly_score": 0.1482,
+    "layer2_advice": null,
+    "latency_ms": 184.4,
+    "pausepoint_state": "APPROVED_AUTO",
+    "resolution": "APPROVED_AUTO",
+    "outcome": "TRANSACTION_CLEAN",
+    "user_feedback": null
+  },
+  {
+    "timestamp": "2026-09-26T01:55:59.265427+00:00",
+    "transaction_id": "LIVE-1790387758",
+    "user_id": "U01",
+    "recipient_phone": "07801234567",
+    "amount_iqd": 25000.0,
+    "note": "خدمة عملاء ",
+    "risk_score": 0.5,
+    "requires_intervention": true,
+    "triggered_rules": [
+      "RULE_03_KNOWN_SCAM_FEE"
+    ],
+    "rule_details": {
+      "RULE_03_KNOWN_SCAM_FEE": "Amount 25,000 IQD matches catalogued Iraqi scam fee to new recipient 07801234567"
+    },
+    "ml_anomaly_score": 0.1482,
+    "layer2_advice": {
+      "headline": "إنتبه! التحويل مريب",
+      "scammer_next_move": "رح يگولك إنو العملية آمنة ويضغطك تدفع الرسوم بسرعة",
+      "recommended_action": "دير بالك، ابطل التحويل وتواصل مع البنك الرسمي لتأكد",
+      "confidence_level": 0.93,
+      "is_fallback": false
+    },
+    "latency_ms": 1212.97,
+    "pausepoint_state": "CANCELLED_BY_USER",
+    "resolution": "CANCELLED_BY_USER",
+    "outcome": "SCAM_PREVENTED",
+    "user_feedback": "User confirmed scam warning and safely cancelled.",
+    "resolved_at": "2026-09-26T01:56:23.442338+00:00"
+  },
+  {
+    "timestamp": "2026-09-26T20:26:30.423328+00:00",
+    "transaction_id": "LIVE-1790454390",
+    "user_id": "U01",
+    "recipient_phone": "07812345678",
+    "amount_iqd": 350000.0,
+    "note": "دفع إيجار الشقة",
+    "risk_score": 0.35,
+    "requires_intervention": false,
+    "triggered_rules": [
+      "RULE_02_HIGH_VELOCITY"
+    ],
+    "rule_details": {
+      "RULE_02_HIGH_VELOCITY": "14 transfers in last 10 min (threshold ≥ 3)"
+    },
+    "ml_anomaly_score": -0.0504,
+    "layer2_advice": null,
+    "latency_ms": 9.8,
+    "pausepoint_state": "APPROVED_AUTO",
+    "resolution": "APPROVED_AUTO",
+    "outcome": "TRANSACTION_CLEAN",
+    "user_feedback": null
+  },
+  {
+    "timestamp": "2026-09-26T20:26:31.792601+00:00",
+    "transaction_id": "LIVE-1790454391",
+    "user_id": "U01",
+    "recipient_phone": "07812345678",
+    "amount_iqd": 350000.0,
+    "note": "دفع إيجار الشقة",
+    "risk_score": 0.35,
+    "requires_intervention": false,
+    "triggered_rules": [
+      "RULE_02_HIGH_VELOCITY"
+    ],
+    "rule_details": {
+      "RULE_02_HIGH_VELOCITY": "15 transfers in last 10 min (threshold ≥ 3)"
+    },
+    "ml_anomaly_score": -0.0504,
+    "layer2_advice": null,
+    "latency_ms": 9.3,
+    "pausepoint_state": "APPROVED_AUTO",
+    "resolution": "APPROVED_AUTO",
+    "outcome": "TRANSACTION_CLEAN",
+    "user_feedback": null
+  },
+  {
+    "timestamp": "2026-09-26T20:26:32.673501+00:00",
+    "transaction_id": "LIVE-1790454392",
+    "user_id": "U01",
+    "recipient_phone": "07812345678",
+    "amount_iqd": 350000.0,
+    "note": "دفع إيجار الشقة",
+    "risk_score": 0.35,
+    "requires_intervention": false,
+    "triggered_rules": [
+      "RULE_02_HIGH_VELOCITY"
+    ],
+    "rule_details": {
+      "RULE_02_HIGH_VELOCITY": "16 transfers in last 10 min (threshold ≥ 3)"
+    },
+    "ml_anomaly_score": -0.0504,
+    "layer2_advice": null,
+    "latency_ms": 9.56,
+    "pausepoint_state": "APPROVED_AUTO",
+    "resolution": "APPROVED_AUTO",
+    "outcome": "TRANSACTION_CLEAN",
+    "user_feedback": null
+  },
+  {
+    "timestamp": "2026-09-26T20:26:33.909607+00:00",
+    "transaction_id": "LIVE-1790454393",
+    "user_id": "U01",
+    "recipient_phone": "07812345678",
+    "amount_iqd": 350000.0,
+    "note": "دفع إيجار الشقة",
+    "risk_score": 0.35,
+    "requires_intervention": false,
+    "triggered_rules": [
+      "RULE_02_HIGH_VELOCITY"
+    ],
+    "rule_details": {
+      "RULE_02_HIGH_VELOCITY": "18 transfers in last 10 min (threshold ≥ 3)"
+    },
+    "ml_anomaly_score": -0.0504,
+    "layer2_advice": null,
+    "latency_ms": 9.41,
+    "pausepoint_state": "APPROVED_AUTO",
+    "resolution": "APPROVED_AUTO",
+    "outcome": "TRANSACTION_CLEAN",
+    "user_feedback": null
+  },
+  {
+    "timestamp": "2026-10-04T23:15:01.253089+00:00",
+    "transaction_id": "LIVE-1791155701",
+    "user_id": "U01",
+    "recipient_phone": "07812345678",
+    "amount_iqd": 350000.0,
+    "note": "دفع إيجار الشقة",
+    "risk_score": 0.25,
+    "requires_intervention": false,
+    "triggered_rules": [
+      "RULE_05_SUSPICIOUS_TIME"
+    ],
+    "rule_details": {
+      "RULE_05_SUSPICIOUS_TIME": "Transaction initiated at suspicious time (02:15). Applied a 25% strictness penalty to thresholds."
+    },
+    "ml_anomaly_score": 0.0,
+    "layer2_advice": null,
+    "latency_ms": 3.19,
+    "pausepoint_state": "APPROVED_AUTO",
+    "resolution": "APPROVED_AUTO",
+    "outcome": "TRANSACTION_CLEAN",
+    "user_feedback": null
+  },
+  {
+    "timestamp": "2026-10-04T23:15:15.931804+00:00",
+    "transaction_id": "LIVE-1791155715",
+    "user_id": "U01",
+    "recipient_phone": "07812345678",
+    "amount_iqd": 350000.0,
+    "note": "دفع إيجار الشقة",
+    "risk_score": 0.25,
+    "requires_intervention": false,
+    "triggered_rules": [
+      "RULE_05_SUSPICIOUS_TIME"
+    ],
+    "rule_details": {
+      "RULE_05_SUSPICIOUS_TIME": "Transaction initiated at suspicious time (02:15). Applied a 25% strictness penalty to thresholds."
+    },
+    "ml_anomaly_score": 0.0,
+    "layer2_advice": null,
+    "latency_ms": 3.67,
+    "pausepoint_state": "APPROVED_AUTO",
+    "resolution": "APPROVED_AUTO",
+    "outcome": "TRANSACTION_CLEAN",
+    "user_feedback": null
+  },
+  {
+    "timestamp": "2026-10-04T23:15:27.667331+00:00",
+    "transaction_id": "LIVE-1791155726",
+    "user_id": "U01",
+    "recipient_phone": "07812345672",
+    "amount_iqd": 350000.0,
+    "note": "دفع إيجار الشقة",
+    "risk_score": 0.75,
+    "requires_intervention": true,
+    "triggered_rules": [
+      "RULE_02_HIGH_VELOCITY",
+      "RULE_05_SUSPICIOUS_TIME"
+    ],
+    "rule_details": {
+      "RULE_02_HIGH_VELOCITY": "3 transfers in last 10 min (threshold ≥ 3)",
+      "RULE_05_SUSPICIOUS_TIME": "Transaction initiated at suspicious time (02:15). Applied a 25% strictness penalty to thresholds."
+    },
+    "ml_anomaly_score": 0.0,
+    "layer2_advice": {
+      "headline": "تحذير: تحويل مريب",
+      "what_looks_wrong": "المبلغ كبير وتحويل سريع لنفس الرقم بوقت غير معتاد، وهذا يطابق RULE_05_SUSPICIOUS_TIME",
+      "scammer_next_move": "ممكن بعدها يضغط عليك بسرعة، يگول إن الإيجار مستعجل ويطلب منك تدخل OTP أو ترسل فلوس إضافية",
+      "recommended_action": "الأفضل تتأكد من هوية المستلم عبر مكالمة أو رسالة من مصدر موثوق قبل ما تكمل التحويل",
+      "confidence_level": 0.75,
+      "is_fallback": false
+    },
+    "latency_ms": 1250.03,
+    "pausepoint_state": "CANCELLED_BY_USER",
+    "resolution": "CANCELLED_BY_USER",
+    "outcome": "SCAM_PREVENTED",
+    "user_feedback": "User confirmed scam warning and safely cancelled.",
+    "resolved_at": "2026-10-04T23:16:00.716205+00:00"
+  },
+  {
+    "timestamp": "2026-10-04T23:16:08.506793+00:00",
+    "transaction_id": "LIVE-1791155768",
+    "user_id": "U20",
+    "recipient_phone": "07812345672",
+    "amount_iqd": 350000.0,
+    "note": "دفع إيجار الشقة",
+    "risk_score": 0.25,
+    "requires_intervention": false,
+    "triggered_rules": [
+      "RULE_05_SUSPICIOUS_TIME"
+    ],
+    "rule_details": {
+      "RULE_05_SUSPICIOUS_TIME": "Transaction initiated at suspicious time (02:16). Applied a 25% strictness penalty to thresholds."
+    },
+    "ml_anomaly_score": 0.0,
+    "layer2_advice": null,
+    "latency_ms": 2.43,
+    "pausepoint_state": "APPROVED_AUTO",
+    "resolution": "APPROVED_AUTO",
+    "outcome": "TRANSACTION_CLEAN",
+    "user_feedback": null
+  },
+  {
+    "timestamp": "2026-10-04T23:16:12.847089+00:00",
+    "transaction_id": "LIVE-1791155772",
+    "user_id": "U20",
+    "recipient_phone": "07812345672",
+    "amount_iqd": 350000.0,
+    "note": "دفع إيجار الشقة",
+    "risk_score": 0.25,
+    "requires_intervention": false,
+    "triggered_rules": [
+      "RULE_05_SUSPICIOUS_TIME"
+    ],
+    "rule_details": {
+      "RULE_05_SUSPICIOUS_TIME": "Transaction initiated at suspicious time (02:16). Applied a 25% strictness penalty to thresholds."
+    },
+    "ml_anomaly_score": 0.0,
+    "layer2_advice": null,
+    "latency_ms": 2.86,
+    "pausepoint_state": "APPROVED_AUTO",
+    "resolution": "APPROVED_AUTO",
+    "outcome": "TRANSACTION_CLEAN",
+    "user_feedback": null
+  },
+  {
+    "timestamp": "2026-10-04T23:16:21.383664+00:00",
+    "transaction_id": "LIVE-1791155780",
+    "user_id": "U20",
+    "recipient_phone": "07812345678",
+    "amount_iqd": 350000.0,
+    "note": "دفع إيجار الشقة",
+    "risk_score": 0.75,
+    "requires_intervention": true,
+    "triggered_rules": [
+      "RULE_02_HIGH_VELOCITY",
+      "RULE_05_SUSPICIOUS_TIME"
+    ],
+    "rule_details": {
+      "RULE_02_HIGH_VELOCITY": "3 transfers in last 10 min (threshold ≥ 3)",
+      "RULE_05_SUSPICIOUS_TIME": "Transaction initiated at suspicious time (02:16). Applied a 25% strictness penalty to thresholds."
+    },
+    "ml_anomaly_score": 0.0,
+    "layer2_advice": {
+      "headline": "تحويل مرفوض بسبب إشارات مريبة",
+      "what_looks_wrong": "المبلغ كبير وسرعة التحويل غير طبيعية لنفس الرقم، والقواعد تشير إلى وقت غير معتاد",
+      "scammer_next_move": "ممكن بعدين يكول إن الإيجار مستحق فورًا ويطلب منك ترسل الـ OTP لتسريع العملية",
+      "recommended_action": "الأفضل تتأكد من صاحب الشقة عبر مكالمة أو رسالة من مصدر موثوق قبل ما تكمل",
+      "confidence_level": 0.75,
+      "is_fallback": false
+    },
+    "latency_ms": 1181.1,
+    "pausepoint_state": "PAUSED_PENDING_USER_DECISION",
+    "resolution": "PENDING_USER_DECISION",
+    "outcome": "INTERCEPTED",
+    "user_feedback": null
+  },
+  {
+    "timestamp": "2026-10-04T23:17:15.676423+00:00",
+    "transaction_id": "LIVE-1791155834",
+    "user_id": "U01",
+    "recipient_phone": "07901234567",
+    "amount_iqd": 50000.0,
+    "note": "رسوم استلام الجائزة",
+    "risk_score": 1.0,
+    "requires_intervention": true,
+    "triggered_rules": [
+      "RULE_01_NEW_RECIPIENT",
+      "RULE_04_KNOWN_SCAM_FEE",
+      "RULE_05_SUSPICIOUS_TIME"
+    ],
+    "rule_details": {
+      "RULE_01_NEW_RECIPIENT": "Transaction sent to a new recipient 07901234567",
+      "RULE_04_KNOWN_SCAM_FEE": "Amount 50,000 IQD matches catalogued Iraqi scam fee to new recipient 07901234567; Transfer note contains known scam keyword(s): رسوم, جائزة",
+      "RULE_05_SUSPICIOUS_TIME": "Transaction initiated at suspicious time (02:17). Applied a 25% strictness penalty to thresholds."
+    },
+    "ml_anomaly_score": 0.0,
+    "layer2_advice": {
+      "headline": "دير بالك – وقّف التحويل هسه!",
+      "what_looks_wrong": "التحويل بيه إشارات مريبة حسب قواعدنا، ممكن يكون نصب.",
+      "scammer_next_move": "النصاب هسه يضغط عليك تسرع وتحول الفلوس قبل ما تفكر – هذا أسلوبهم دايماً.",
+      "recommended_action": "وقّف التحويل، اقفل الهاتف، واتصل بخدمة عملاء المحفظة مباشرة من الرقم الرسمي.",
+      "confidence_level": 0.9,
+      "is_fallback": true
+    },
+    "latency_ms": 1482.5,
+    "pausepoint_state": "CANCELLED_BY_USER",
+    "resolution": "CANCELLED_BY_USER",
+    "outcome": "SCAM_PREVENTED",
+    "user_feedback": "User confirmed scam warning and safely cancelled.",
+    "resolved_at": "2026-10-04T23:17:49.268074+00:00"
+  },
+  {
+    "timestamp": "2026-10-04T23:17:53.243481+00:00",
+    "transaction_id": "LIVE-1791155873",
+    "user_id": "U01",
+    "recipient_phone": "07812345678",
+    "amount_iqd": 350000.0,
+    "note": "دفع إيجار الشقة",
+    "risk_score": 0.25,
+    "requires_intervention": false,
+    "triggered_rules": [
+      "RULE_05_SUSPICIOUS_TIME"
+    ],
+    "rule_details": {
+      "RULE_05_SUSPICIOUS_TIME": "Transaction initiated at suspicious time (02:17). Applied a 25% strictness penalty to thresholds."
+    },
+    "ml_anomaly_score": 0.0,
+    "layer2_advice": null,
+    "latency_ms": 3.26,
+    "pausepoint_state": "APPROVED_AUTO",
+    "resolution": "APPROVED_AUTO",
+    "outcome": "TRANSACTION_CLEAN",
+    "user_feedback": null
+  },
+  {
+    "timestamp": "2026-10-04T23:17:57.880248+00:00",
+    "transaction_id": "LIVE-1791155876",
+    "user_id": "U01",
+    "recipient_phone": "07812345678",
+    "amount_iqd": 350000.0,
+    "note": "دفع إيجار الشقة",
+    "risk_score": 0.5,
+    "requires_intervention": true,
+    "triggered_rules": [
+      "RULE_02_HIGH_VELOCITY",
+      "RULE_05_SUSPICIOUS_TIME"
+    ],
+    "rule_details": {
+      "RULE_02_HIGH_VELOCITY": "3 transfers in last 10 min (threshold ≥ 3)",
+      "RULE_05_SUSPICIOUS_TIME": "Transaction initiated at suspicious time (02:17). Applied a 25% strictness penalty to thresholds."
+    },
+    "ml_anomaly_score": 0.0,
+    "layer2_advice": {
+      "headline": "تحويل مرفوع إشارات خطر",
+      "what_looks_wrong": "المبلغ كبير وسرعة تحويلات لنفس الرقم مع توقيت غير طبيعي، وهذا يطابق RULE_05_SUSPICIOUS_TIME",
+      "scammer_next_move": "ممكن بعدين يكول إن الإيجار مستعجل ويطلب منك ترسل الـ OTP بسرعة",
+      "recommended_action": "الأفضل تتأكد من صاحب الشقة عبر مكالمة أو رسالة من وسيلة ثانية قبل ما تكمل التحويل",
+      "confidence_level": 0.5,
+      "is_fallback": false
+    },
+    "latency_ms": 965.57,
+    "pausepoint_state": "PAUSED_PENDING_USER_DECISION",
+    "resolution": "PENDING_USER_DECISION",
+    "outcome": "INTERCEPTED",
+    "user_feedback": null
+  },
+  {
+    "timestamp": "2026-10-04T23:30:41.779868+00:00",
+    "transaction_id": "LIVE-1791156640",
+    "user_id": "U01",
+    "recipient_phone": "07909876543",
+    "amount_iqd": 250000.0,
+    "note": "تحديث وتأكيد بيانات المحفظة",
+    "risk_score": 1.0,
+    "requires_intervention": true,
+    "triggered_rules": [
+      "RULE_01_NEW_RECIPIENT",
+      "RULE_04_KNOWN_SCAM_FEE",
+      "RULE_05_SUSPICIOUS_TIME"
+    ],
+    "rule_details": {
+      "RULE_01_NEW_RECIPIENT": "Transaction sent to a new recipient 07909876543",
+      "RULE_04_KNOWN_SCAM_FEE": "Transfer note contains known scam keyword(s): تحديث",
+      "RULE_05_SUSPICIOUS_TIME": "Transaction initiated at suspicious time (02:30). Applied a 25% strictness penalty to thresholds."
+    },
+    "ml_anomaly_score": 0.0,
+    "layer2_advice": {
+      "headline": "تحذير: تحويل مشبوه",
+      "what_looks_wrong": "المبلغ كبير 250,000 دينار ووجه لرقم جديد ما معروف، والسبب 'تحديث وتأكيد بيانات المحفظة' عادةً يُستغل بالنصب، والنظام كشف مبلغ رسوم معروف بالنصب ووقت غير معتاد.",
+      "scammer_next_move": "ممكن بعدين يتصل ويگول إن العملية مستعجلة ويطلب منك ترسل OTP أو تضغط على رابط لتأكيد التحويل.",
+      "recommended_action": "الأفضل تتأكد من طلب التحديث من مصدر رسمي قبل ما تكمل وتماسك OTP",
+      "confidence_level": 0.96,
+      "is_fallback": false
+    },
+    "latency_ms": 1326.44,
+    "pausepoint_state": "PROCEEDED_ON_USER_RISK",
+    "resolution": "PROCEEDED_ON_USER_RISK",
+    "outcome": "USER_OVERRIDE_WARNING",
+    "user_feedback": "User overrode safety warning to proceed at own risk.",
+    "resolved_at": "2026-10-04T23:31:39.094212+00:00"
+  },
+  {
+    "timestamp": "2026-10-04T23:31:48.811046+00:00",
+    "transaction_id": "LIVE-1791156708",
+    "user_id": "U01",
+    "recipient_phone": "07812345678",
+    "amount_iqd": 350000.0,
+    "note": "دفع إيجار الشقة",
+    "risk_score": 0.25,
+    "requires_intervention": false,
+    "triggered_rules": [
+      "RULE_05_SUSPICIOUS_TIME"
+    ],
+    "rule_details": {
+      "RULE_05_SUSPICIOUS_TIME": "Transaction initiated at suspicious time (02:31). Applied a 25% strictness penalty to thresholds."
+    },
+    "ml_anomaly_score": 0.0,
+    "layer2_advice": null,
+    "latency_ms": 3.06,
+    "pausepoint_state": "APPROVED_AUTO",
+    "resolution": "APPROVED_AUTO",
+    "outcome": "TRANSACTION_CLEAN",
+    "user_feedback": null
+  },
+  {
+    "timestamp": "2026-10-04T23:32:06.720401+00:00",
+    "transaction_id": "LIVE-1791156725",
+    "user_id": "U01",
+    "recipient_phone": "07812345678",
+    "amount_iqd": 350000.0,
+    "note": "دفع إيجار الشقة",
+    "risk_score": 0.5,
+    "requires_intervention": true,
+    "triggered_rules": [
+      "RULE_02_HIGH_VELOCITY",
+      "RULE_05_SUSPICIOUS_TIME"
+    ],
+    "rule_details": {
+      "RULE_02_HIGH_VELOCITY": "3 transfers in last 10 min (threshold ≥ 3)",
+      "RULE_05_SUSPICIOUS_TIME": "Transaction initiated at suspicious time (02:32). Applied a 25% strictness penalty to thresholds."
+    },
+    "ml_anomaly_score": 0.0,
+    "layer2_advice": {
+      "headline": "تحذير: تحويل مريب",
+      "what_looks_wrong": "المبلغ كبير ووجهة التحويل نفس رقم الهاتف والحساب، والتحويل تم بسرعة غير طبيعية وفي وقت غير معتاد، وهذا يطابق RULE_05_SUSPICIOUS_TIME.",
+      "scammer_next_move": "ممكن بعدها يتصل ويضغط عليك إن عنده حالة طارئة أو يطلب منك ترسل OTP أو تدفع مبلغ إضافي بسرعة.",
+      "recommended_action": "الأفضل تتأكد من صحة المستلم بطريقه ثانية قبل تكمل التحويل.",
+      "confidence_level": 0.5,
+      "is_fallback": false
+    },
+    "latency_ms": 1256.11,
+    "pausepoint_state": "PAUSED_PENDING_USER_DECISION",
+    "resolution": "PENDING_USER_DECISION",
+    "outcome": "INTERCEPTED",
+    "user_feedback": null
+  },
+  {
+    "timestamp": "2026-10-04T23:38:13.577535+00:00",
+    "transaction_id": "LIVE-1791157093",
+    "user_id": "U01",
+    "recipient_phone": "07812345678",
+    "amount_iqd": 350000.0,
+    "note": "دفع إيجار الشقة",
+    "risk_score": 0.25,
+    "requires_intervention": false,
+    "triggered_rules": [
+      "RULE_05_SUSPICIOUS_TIME"
+    ],
+    "rule_details": {
+      "RULE_05_SUSPICIOUS_TIME": "Transaction initiated at suspicious time (02:38). Applied a 25% strictness penalty to thresholds."
+    },
+    "ml_anomaly_score": 0.0,
+    "layer2_advice": null,
+    "latency_ms": 5.4,
+    "pausepoint_state": "APPROVED_AUTO",
+    "resolution": "APPROVED_AUTO",
+    "outcome": "TRANSACTION_CLEAN",
+    "user_feedback": null
+  },
+  {
+    "timestamp": "2026-10-04T23:38:21.692318+00:00",
+    "transaction_id": "LIVE-1791157100",
+    "user_id": "U01",
+    "recipient_phone": "07701112233",
+    "amount_iqd": 600000.0,
+    "note": "تحويل طارئ – مدير عام",
+    "risk_score": 0.5,
+    "requires_intervention": true,
+    "triggered_rules": [
+      "RULE_01_NEW_RECIPIENT",
+      "RULE_05_SUSPICIOUS_TIME"
+    ],
+    "rule_details": {
+      "RULE_01_NEW_RECIPIENT": "Transaction sent to a new recipient 07701112233",
+      "RULE_05_SUSPICIOUS_TIME": "Transaction initiated at suspicious time (02:38). Applied a 25% strictness penalty to thresholds."
+    },
+    "ml_anomaly_score": 0.0,
+    "layer2_advice": {
+      "headline": "تحذير: تحويل كبير غير مألوف",
+      "what_looks_wrong": "المبلغ عالي 600,000 دينار، المستلم جديد، والطلب جا بوقت غير عادي مع سبب “تحويل طارئ – مدير عام”. هالإشارات توحي إنو ممكن يكون احتيال",
+      "scammer_next_move": "ممكن بعدها يضغط عليك يطلب موافقة سريعة ويطلب OTP أو يطمنك إنو التحويل ضروري",
+      "recommended_action": "الأفضل تتأكد من الطلب عبر وسيلة ثانية مع المدير قبل ما تكمل",
+      "confidence_level": 0.6,
+      "is_fallback": false
+    },
+    "latency_ms": 1659.19,
+    "pausepoint_state": "PAUSED_PENDING_USER_DECISION",
+    "resolution": "PENDING_USER_DECISION",
+    "outcome": "INTERCEPTED",
+    "user_feedback": null
+  },
+  {
+    "timestamp": "2026-10-04T23:42:48.437599+00:00",
+    "transaction_id": "LIVE-1791157367",
+    "user_id": "U01",
+    "recipient_phone": "07701112233",
+    "amount_iqd": 600000.0,
+    "note": "تحويل طارئ – مدير عام",
+    "risk_score": 0.5,
+    "requires_intervention": true,
+    "triggered_rules": [
+      "RULE_01_NEW_RECIPIENT",
+      "RULE_05_SUSPICIOUS_TIME"
+    ],
+    "rule_details": {
+      "RULE_01_NEW_RECIPIENT": "Transaction sent to a new recipient 07701112233",
+      "RULE_05_SUSPICIOUS_TIME": "Transaction initiated at suspicious time (02:42). Applied a 25% strictness penalty to thresholds."
+    },
+    "ml_anomaly_score": 0.0,
+    "layer2_advice": {
+      "headline": "تحويل طارئ مريب",
+      "what_looks_wrong": "المبلغ عالي 600,000 دينار، ومستلم جديد برقم ما شفته قبلاً، والسبب مكتوب 'تحويل طارئ – مدير عام' ووقت التحويل غير معتاد، هالأشياء تشبه إشارات احتيال.",
+      "scammer_next_move": "ممكن بعدها يطلب منك ترسل OTP أو يضغط عليك تسرع بالتحويل حتى ما يكتشف.",
+      "recommended_action": "الأفضل تتأكد من طلب التحويل مع المدير عبر مكالمة أو رسالة من مصدر موثوق قبل ما تكمل.",
+      "confidence_level": 0.6,
+      "is_fallback": false
+    },
+    "latency_ms": 1298.78,
+    "pausepoint_state": "CANCELLED_BY_USER",
+    "resolution": "CANCELLED_BY_USER",
+    "outcome": "SCAM_PREVENTED",
+    "user_feedback": "User confirmed scam warning and safely cancelled.",
+    "resolved_at": "2026-10-04T23:42:59.780283+00:00"
+  },
+  {
+    "timestamp": "2026-10-04T23:43:07.022152+00:00",
+    "transaction_id": "LIVE-1791157385",
+    "user_id": "U01",
+    "recipient_phone": "07701112233",
+    "amount_iqd": 600000000.0,
+    "note": "تحويل طارئ – مدير عام",
+    "risk_score": 0.5,
+    "requires_intervention": true,
+    "triggered_rules": [
+      "RULE_01_NEW_RECIPIENT",
+      "RULE_05_SUSPICIOUS_TIME"
+    ],
+    "rule_details": {
+      "RULE_01_NEW_RECIPIENT": "Transaction sent to a new recipient 07701112233",
+      "RULE_05_SUSPICIOUS_TIME": "Transaction initiated at suspicious time (02:43). Applied a 25% strictness penalty to thresholds."
+    },
+    "ml_anomaly_score": 0.0,
+    "layer2_advice": {
+      "headline": "تحويل طارئ كبير ومريب",
+      "what_looks_wrong": "المبلغ كبير جدا، المستلم أول مرة، والطلب جاي بوقت غير معتاد، والسبب مكتوب 'مدير عام' بس ماكو تأكيد",
+      "scammer_next_move": "ممكن بعدها يكول إنو لازم ترسل الـ OTP فوراً أو يضغط عليك بسرعة لتكمل التحويل",
+      "recommended_action": "الأفضل تتأكد من طلب المدير عن طريق مكالمة أو رسالة من مصدر موثوق قبل ما ترسل أي شي",
+      "confidence_level": 0.7,
+      "is_fallback": false
+    },
+    "latency_ms": 1437.53,
+    "pausepoint_state": "PAUSED_PENDING_USER_DECISION",
+    "resolution": "PENDING_USER_DECISION",
+    "outcome": "INTERCEPTED",
+    "user_feedback": null
+  },
+  {
+    "timestamp": "2026-10-04T23:43:45.035723+00:00",
+    "transaction_id": "LIVE-1791157423",
+    "user_id": "U01",
+    "recipient_phone": "07701112233",
+    "amount_iqd": 600000.0,
+    "note": "تحويل طارئ – مدير عام",
+    "risk_score": 0.5,
+    "requires_intervention": true,
+    "triggered_rules": [
+      "RULE_01_NEW_RECIPIENT",
+      "RULE_05_SUSPICIOUS_TIME"
+    ],
+    "rule_details": {
+      "RULE_01_NEW_RECIPIENT": "Transaction sent to a new recipient 07701112233",
+      "RULE_05_SUSPICIOUS_TIME": "Transaction initiated at suspicious time (02:43). Applied a 25% strictness penalty to thresholds."
+    },
+    "ml_anomaly_score": 0.0,
+    "layer2_advice": {
+      "headline": "تحويل طارئ بمبلغ كبير",
+      "what_looks_wrong": "المبلغ كبير 600,000 دينار وعندك مستلم جديد، والسبب مكتوب “تحويل طارئ – مدير عام” بوقت غير معتاد، هذي إشارات عادة تكون احتيالية",
+      "scammer_next_move": "ممكن بعدها يكول إن الموضوع مستعجل ويضغط عليك تعطي الـ OTP بسرعة أو يطلب منك تأكيد التحويل فوراً",
+      "recommended_action": "الأفضل تتأكد من طلب التحويل عبر وسيلة ثانية مع المدير قبل ما تكمل",
+      "confidence_level": 0.6,
+      "is_fallback": false
+    },
+    "latency_ms": 1289.43,
+    "pausepoint_state": "PAUSED_PENDING_USER_DECISION",
+    "resolution": "PENDING_USER_DECISION",
+    "outcome": "INTERCEPTED",
+    "user_feedback": null
+  },
+  {
+    "timestamp": "2026-10-04T23:44:16.726943+00:00",
+    "transaction_id": "LIVE-1791157455",
+    "user_id": "U01",
+    "recipient_phone": "07701112233",
+    "amount_iqd": 600000.0,
+    "note": "تحويل طارئ – مدير عام",
+    "risk_score": 0.85,
+    "requires_intervention": true,
+    "triggered_rules": [
+      "RULE_01_NEW_RECIPIENT",
+      "RULE_03_ABNORMAL_amount",
+      "RULE_05_SUSPICIOUS_TIME"
+    ],
+    "rule_details": {
+      "RULE_01_NEW_RECIPIENT": "Transaction sent to a new recipient 07701112233",
+      "RULE_03_ABNORMAL_amount": "Amount 600,000 IQD > 500,000 IQD (2.5× avg 200,000 IQD) to new recipient 07701112233",
+      "RULE_05_SUSPICIOUS_TIME": "Transaction initiated at suspicious time (02:44). Applied a 25% strictness penalty to thresholds."
+    },
+    "ml_anomaly_score": 0.0,
+    "layer2_advice": {
+      "headline": "تحذير: تحويل طارئ كبير",
+      "what_looks_wrong": "المبلغ كبير وايد وتحويل لمستلم جديد، والسبب مكتوب 'تحويل طارئ – مدير عام' بس الوقت غير معتاد، وهذا يطابق قواعد التحذير",
+      "scammer_next_move": "ممكن بعدين يضغط عليك بإنه لازم ترسل الـ OTP بسرعة أو يقول إن الفلوس لازم توصل فوراً",
+      "recommended_action": "الأفضل تتأكد من طلب التحويل مع المدير عبر مكالمة أو رسالة من مصدر موثوق قبل ما تكمل",
+      "confidence_level": 0.92,
+      "is_fallback": false
+    },
+    "latency_ms": 1358.04,
+    "pausepoint_state": "PAUSED_PENDING_USER_DECISION",
+    "resolution": "PENDING_USER_DECISION",
+    "outcome": "INTERCEPTED",
+    "user_feedback": null
+  },
+  {
+    "timestamp": "2026-10-04T23:46:33.687198+00:00",
+    "transaction_id": "LIVE-1791157593",
+    "user_id": "U01",
+    "recipient_phone": "07812345678",
+    "amount_iqd": 350000.0,
+    "note": "دفع إيجار الشقة",
+    "risk_score": 0.25,
+    "requires_intervention": false,
+    "triggered_rules": [
+      "RULE_05_SUSPICIOUS_TIME"
+    ],
+    "rule_details": {
+      "RULE_05_SUSPICIOUS_TIME": "Transaction initiated at suspicious time (02:46). Applied a 25% strictness penalty to thresholds."
+    },
+    "ml_anomaly_score": 0.0,
+    "layer2_advice": null,
+    "latency_ms": 5.27,
+    "pausepoint_state": "APPROVED_AUTO",
+    "resolution": "APPROVED_AUTO",
+    "outcome": "TRANSACTION_CLEAN",
+    "user_feedback": null
+  },
+  {
+    "timestamp": "2026-10-04T23:46:41.168015+00:00",
+    "transaction_id": "LIVE-1791157599",
+    "user_id": "U01",
+    "recipient_phone": "07812345678",
+    "amount_iqd": 350000.0,
+    "note": "دفع إيجار الشقة",
+    "risk_score": 0.5,
+    "requires_intervention": true,
+    "triggered_rules": [
+      "RULE_01_NEW_RECIPIENT",
+      "RULE_05_SUSPICIOUS_TIME"
+    ],
+    "rule_details": {
+      "RULE_01_NEW_RECIPIENT": "Transaction sent to a new recipient 07812345678",
+      "RULE_05_SUSPICIOUS_TIME": "Transaction initiated at suspicious time (02:46). Applied a 25% strictness penalty to thresholds."
+    },
+    "ml_anomaly_score": 0.0,
+    "layer2_advice": {
+      "headline": "تحويل مريب للدفعة الكبيرة",
+      "what_looks_wrong": "المبلغ كبير وصار لمستلم جديد بوقت غير معتاد، وهذا يرفع الشكوك",
+      "scammer_next_move": "ممكن بعدين يضغط عليك يطلب OTP بسرعة ويقول إن الإيجار مستعجل",
+      "recommended_action": "الأفضل تتأكد من هوية المستلم عبر وسيلة ثانية قبل ما تكمل",
+      "confidence_level": 0.6,
+      "is_fallback": false
+    },
+    "latency_ms": 1687.38,
+    "pausepoint_state": "CANCELLED_BY_USER",
+    "resolution": "CANCELLED_BY_USER",
+    "outcome": "SCAM_PREVENTED",
+    "user_feedback": "User confirmed scam warning and safely cancelled.",
+    "resolved_at": "2026-10-04T23:47:22.438902+00:00"
+  },
+  {
+    "timestamp": "2026-10-04T23:47:31.937295+00:00",
+    "transaction_id": "LIVE-1791157650",
+    "user_id": "U02",
+    "recipient_phone": "07812345678",
+    "amount_iqd": 3500000.0,
+    "note": "دفع إيجار الشقة",
+    "risk_score": 0.75,
+    "requires_intervention": true,
+    "triggered_rules": [
+      "RULE_01_NEW_RECIPIENT",
+      "RULE_03_ABNORMAL_AMOUNT",
+      "RULE_05_SUSPICIOUS_TIME"
+    ],
+    "rule_details": {
+      "RULE_01_NEW_RECIPIENT": "Transaction sent to a new recipient 07812345678",
+      "RULE_03_ABNORMAL_AMOUNT": "Amount 3,500,000 IQD > 500,000 IQD (2.5× avg 200,000 IQD) to new recipient 07812345678",
+      "RULE_05_SUSPICIOUS_TIME": "Transaction initiated at suspicious time (02:47). Applied a 25% strictness penalty to thresholds."
+    },
+    "ml_anomaly_score": 0.0,
+    "layer2_advice": {
+      "headline": "تحويل مريب - مبلغ كبير لمستلم جديد",
+      "what_looks_wrong": "المبلغ 3,500,000 دينار، المستلم جديد وماكو تعامل قبله، التحويل صار بوقت غير معتاد، كل هالإشارات تدل على احتمال احتيال",
+      "scammer_next_move": "ممكن بعدها يكول إن الإيجار مستعجل ويطلب منك ترسل الـ OTP بسرعة أو يضغط عليك إنّه يوقف العقد إذا ما دفعت الآن",
+      "recommended_action": "الأفضل تتأكد من صاحب الشقة بوسيلة ثانية قبل ما تكمل التحويل",
+      "confidence_level": 0.85,
+      "is_fallback": false
+    },
+    "latency_ms": 1264.94,
+    "pausepoint_state": "CANCELLED_BY_USER",
+    "resolution": "CANCELLED_BY_USER",
+    "outcome": "SCAM_PREVENTED",
+    "user_feedback": "User confirmed scam warning and safely cancelled.",
+    "resolved_at": "2026-10-04T23:48:19.661076+00:00"
+  },
+  {
+    "timestamp": "2026-10-04T23:58:40.134430+00:00",
+    "transaction_id": "LIVE-1791158318",
+    "user_id": "U01",
+    "recipient_phone": "07901234567",
+    "amount_iqd": 50000.0,
+    "note": "رسوم استلام الجائزة",
+    "risk_score": 1.0,
+    "requires_intervention": true,
+    "triggered_rules": [
+      "RULE_01_NEW_RECIPIENT",
+      "RULE_04_KNOWN_SCAM_FEE",
+      "RULE_05_SUSPICIOUS_TIME"
+    ],
+    "rule_details": {
+      "RULE_01_NEW_RECIPIENT": "Transaction sent to a new recipient 07901234567",
+      "RULE_04_KNOWN_SCAM_FEE": "Amount 50,000 IQD matches catalogued Iraqi scam fee to new recipient 07901234567; Transfer note contains known scam keyword(s): رسوم, جائزة",
+      "RULE_05_SUSPICIOUS_TIME": "Transaction initiated at suspicious time (02:58). Applied a 25% strictness penalty to thresholds."
+    },
+    "ml_anomaly_score": 0.0,
+    "layer2_advice": {
+      "headline": "تحذير: تحويل ممكن احتيالي",
+      "what_looks_wrong": "المبلغ ٥٠٠٠٠ دينار موجه لمستلم جديد مع سبب غير منطقي 'رسوم استلام الجائزة'، وهذا يطابق إشارات نصب رسوم الجائزة، والتحويل صار بوقت غير معتاد.",
+      "scammer_next_move": "ممكن بعدها يتصل بيك ويضغط عليك بسرعة، يطلب OTP أو يگول إن الجائزة راح تنتهي إذا ما دفعت.",
+      "recommended_action": "الأفضل ما تكمل التحويل وتتحقق من الجائزة من مصدر رسمي قبل أي شيء.",
+      "confidence_level": 0.96,
+      "is_fallback": false
+    },
+    "latency_ms": 1531.64,
+    "pausepoint_state": "CANCELLED_BY_USER",
+    "resolution": "CANCELLED_BY_USER",
+    "outcome": "SCAM_PREVENTED",
+    "user_feedback": "User confirmed scam warning and safely cancelled.",
+    "resolved_at": "2026-10-04T23:59:05.135940+00:00"
+  },
+  {
+    "timestamp": "2026-10-04T23:59:15.871813+00:00",
+    "transaction_id": "LIVE-1791158355",
+    "user_id": "U01",
+    "recipient_phone": "07812345678",
+    "amount_iqd": 350000.0,
+    "note": "دفع إيجار الشقة",
+    "risk_score": 0.25,
+    "requires_intervention": false,
+    "triggered_rules": [
+      "RULE_05_SUSPICIOUS_TIME"
+    ],
+    "rule_details": {
+      "RULE_05_SUSPICIOUS_TIME": "Transaction initiated at suspicious time (02:59). Applied a 25% strictness penalty to thresholds."
+    },
+    "ml_anomaly_score": 0.0,
+    "layer2_advice": null,
+    "latency_ms": 3.17,
+    "pausepoint_state": "APPROVED_AUTO",
+    "resolution": "APPROVED_AUTO",
+    "outcome": "TRANSACTION_CLEAN",
+    "user_feedback": null
+  },
+  {
+    "timestamp": "2026-10-04T23:59:23.744904+00:00",
+    "transaction_id": "LIVE-1791158362",
+    "user_id": "U01",
+    "recipient_phone": "07812345678",
+    "amount_iqd": 350000.0,
+    "note": "دفع إيجار الشقة",
+    "risk_score": 0.75,
+    "requires_intervention": true,
+    "triggered_rules": [
+      "RULE_01_NEW_RECIPIENT",
+      "RULE_02_HIGH_VELOCITY",
+      "RULE_05_SUSPICIOUS_TIME"
+    ],
+    "rule_details": {
+      "RULE_01_NEW_RECIPIENT": "Transaction sent to a new recipient 07812345678",
+      "RULE_02_HIGH_VELOCITY": "3 transfers in last 10 min (threshold ≥ 3)",
+      "RULE_05_SUSPICIOUS_TIME": "Transaction initiated at suspicious time (02:59). Applied a 25% strictness penalty to thresholds."
+    },
+    "ml_anomaly_score": 0.0,
+    "layer2_advice": {
+      "headline": "تحذير: تحويل مريب",
+      "what_looks_wrong": "المبلغ كبير 350,000 دينار، والرقم جديد عليك، والتحويل صار بسرعة غير طبيعية وبوقت غير معتاد، كل هالأشياء تشكك بسلامة العملية.",
+      "scammer_next_move": "ممكن بعدها يحاول يضغط عليك بسرعة، يطلب منك OTP أو يگول إنو لازم تكمل فوراً لتجنب تأخير الإيجار.",
+      "recommended_action": "الأفضل تتأكد من المستلم بوسيلة ثانية قبل ما تكمل التحويل.",
+      "confidence_level": 0.78,
+      "is_fallback": false
+    },
+    "latency_ms": 1221.74,
+    "pausepoint_state": "PROCEEDED_ON_USER_RISK",
+    "resolution": "PROCEEDED_ON_USER_RISK",
+    "outcome": "USER_OVERRIDE_WARNING",
+    "user_feedback": "User overrode safety warning to proceed at own risk.",
+    "resolved_at": "2026-10-05T00:00:10.419977+00:00"
+  },
+  {
+    "timestamp": "2026-10-05T00:00:16.188319+00:00",
+    "transaction_id": "LIVE-1791158414",
+    "user_id": "U01",
+    "recipient_phone": "07812345678",
+    "amount_iqd": 3500000.0,
+    "note": "دفع إيجار الشقة",
+    "risk_score": 1.0,
+    "requires_intervention": true,
+    "triggered_rules": [
+      "RULE_01_NEW_RECIPIENT",
+      "RULE_02_HIGH_VELOCITY",
+      "RULE_03_ABNORMAL_AMOUNT",
+      "RULE_05_SUSPICIOUS_TIME"
+    ],
+    "rule_details": {
+      "RULE_01_NEW_RECIPIENT": "Transaction sent to a new recipient 07812345678",
+      "RULE_02_HIGH_VELOCITY": "4 transfers in last 10 min (threshold ≥ 3)",
+      "RULE_03_ABNORMAL_AMOUNT": "Amount 3,500,000 IQD > 500,000 IQD (2.5× avg 200,000 IQD) to new recipient 07812345678",
+      "RULE_05_SUSPICIOUS_TIME": "Transaction initiated at suspicious time (03:00). Applied a 25% strictness penalty to thresholds."
+    },
+    "ml_anomaly_score": 0.0,
+    "layer2_advice": {
+      "headline": "تحويل مريب جداً",
+      "what_looks_wrong": "المبلغ كبير 3,500,000 دينار، المستلم رقم جديد، التحويل تم بسرعة وفي وقت غير معتاد، كل هالأشياء تشير لسلوك غير طبيعي",
+      "scammer_next_move": "ممكن بعدها يضغط عليك بسرعة ويطلب OTP أو يقول إن الإيجار مستعجل ويطلب تأكيد فوراً",
+      "recommended_action": "الأفضل تتأكد من صاحب الشقة بطريقه ثانية (مثلاً مكالمة أو رسالة) قبل ما تكمل التحويل",
+      "confidence_level": 0.96,
+      "is_fallback": false
+    },
+    "latency_ms": 1269.18,
+    "pausepoint_state": "PAUSED_PENDING_USER_DECISION",
+    "resolution": "PENDING_USER_DECISION",
+    "outcome": "INTERCEPTED",
+    "user_feedback": null
+  },
+  {
+    "timestamp": "2026-10-05T00:01:54.860405+00:00",
+    "transaction_id": "LIVE-1791158513",
+    "user_id": "U01",
+    "recipient_phone": "07901234567",
+    "amount_iqd": 50000.0,
+    "note": "رسوم استلام الجائزة",
+    "risk_score": 1.0,
+    "requires_intervention": true,
+    "triggered_rules": [
+      "RULE_01_NEW_RECIPIENT",
+      "RULE_04_KNOWN_SCAM_FEE",
+      "RULE_05_SUSPICIOUS_TIME"
+    ],
+    "rule_details": {
+      "RULE_01_NEW_RECIPIENT": "Transaction sent to a new recipient 07901234567",
+      "RULE_04_KNOWN_SCAM_FEE": "Amount 50,000 IQD matches catalogued Iraqi scam fee to new recipient 07901234567; Transfer note contains known scam keyword(s): رسوم, جائزة",
+      "RULE_05_SUSPICIOUS_TIME": "Transaction initiated at suspicious time (03:01). Applied a 25% strictness penalty to thresholds."
+    },
+    "ml_anomaly_score": 0.0,
+    "layer2_advice": {
+      "headline": "تحويل مريب",
+      "what_looks_wrong": "المبلغ كبير 50,000 دينار وعنوان المستلم جديد، السبب \"رسوم استلام الجائزة\" معروف بنمط نصب، والتحويل صار بوقت غير معتاد. كل هالإشارات تدل على احتمال احتيال.",
+      "scammer_next_move": "ممكن بعدها يتصل ويضغط عليك بسرعة يدفع الرسوم، ويكول إن الجائزة راح تضيع إذا ما دفعت الآن أو يطلب معلومات إضافية.",
+      "recommended_action": "الأفضل تتأكد من الجائزة من جهة رسمية أو وسيلة ثانية قبل ما تكمل التحويل.",
+      "confidence_level": 0.98,
+      "is_fallback": false
+    },
+    "latency_ms": 1107.7,
+    "pausepoint_state": "CANCELLED_BY_USER",
+    "resolution": "CANCELLED_BY_USER",
+    "outcome": "SCAM_PREVENTED",
+    "user_feedback": "User confirmed scam warning and safely cancelled.",
+    "resolved_at": "2026-10-05T00:02:34.025711+00:00"
+  },
+  {
+    "timestamp": "2026-10-05T00:02:50.220715+00:00",
+    "transaction_id": "LIVE-1791158568",
+    "user_id": "U01",
+    "recipient_phone": "07901234567",
+    "amount_iqd": 5000000.0,
+    "note": "رسوم استلام الجائزة",
+    "risk_score": 1.0,
+    "requires_intervention": true,
+    "triggered_rules": [
+      "RULE_01_NEW_RECIPIENT",
+      "RULE_03_ABNORMAL_AMOUNT",
+      "RULE_04_KNOWN_SCAM_FEE",
+      "RULE_05_SUSPICIOUS_TIME"
+    ],
+    "rule_details": {
+      "RULE_01_NEW_RECIPIENT": "Transaction sent to a new recipient 07901234567",
+      "RULE_03_ABNORMAL_AMOUNT": "Amount 5,000,000 IQD > 500,000 IQD (2.5× avg 200,000 IQD) to new recipient 07901234567",
+      "RULE_04_KNOWN_SCAM_FEE": "Transfer note contains known scam keyword(s): رسوم, جائزة",
+      "RULE_05_SUSPICIOUS_TIME": "Transaction initiated at suspicious time (03:02). Applied a 25% strictness penalty to thresholds."
+    },
+    "ml_anomaly_score": 0.0,
+    "layer2_advice": {
+      "headline": "تحذير: تحويل مريب",
+      "what_looks_wrong": "المبلغ كبير 5,000,000 ع.د، للمستلم رقم جديد، والسبب 'رسوم استلام الجائزة' معروف بنوع نصب، والتحويل صار بوقت غير معتاد، كل هالإشارات مريبة.",
+      "scammer_next_move": "ممكن بعدها يتصل ويضغط عليك بسرعة، يطلب OTP أو يقول إن الجائزة راح تنتهي إذا ما تحوّل بسرعة.",
+      "recommended_action": "الأفضل تلغي التحويل وتتأكد من الجائزة عبر وسيلة رسمية قبل أي شي.",
+      "confidence_level": 0.99,
+      "is_fallback": false
+    },
+    "latency_ms": 1422.52,
+    "pausepoint_state": "PROCEEDED_ON_USER_RISK",
+    "resolution": "PROCEEDED_ON_USER_RISK",
+    "outcome": "USER_OVERRIDE_WARNING",
+    "user_feedback": "User overrode safety warning to proceed at own risk.",
+    "resolved_at": "2026-10-05T00:03:03.806161+00:00"
+  },
+  {
+    "timestamp": "2026-10-05T00:03:06.555298+00:00",
+    "transaction_id": "LIVE-1791158585",
+    "user_id": "U01",
+    "recipient_phone": "07901234567",
+    "amount_iqd": 5000000.0,
+    "note": "رسوم استلام الجائزة",
+    "risk_score": 1.0,
+    "requires_intervention": true,
+    "triggered_rules": [
+      "RULE_01_NEW_RECIPIENT",
+      "RULE_02_HIGH_VELOCITY",
+      "RULE_03_ABNORMAL_AMOUNT",
+      "RULE_04_KNOWN_SCAM_FEE",
+      "RULE_05_SUSPICIOUS_TIME"
+    ],
+    "rule_details": {
+      "RULE_01_NEW_RECIPIENT": "Transaction sent to a new recipient 07901234567",
+      "RULE_02_HIGH_VELOCITY": "3 transfers in last 10 min (threshold ≥ 3)",
+      "RULE_03_ABNORMAL_AMOUNT": "Amount 5,000,000 IQD > 500,000 IQD (2.5× avg 200,000 IQD) to new recipient 07901234567",
+      "RULE_04_KNOWN_SCAM_FEE": "Transfer note contains known scam keyword(s): رسوم, جائزة",
+      "RULE_05_SUSPICIOUS_TIME": "Transaction initiated at suspicious time (03:03). Applied a 25% strictness penalty to thresholds."
+    },
+    "ml_anomaly_score": 0.0,
+    "layer2_advice": {
+      "headline": "تحذير: تحويل مريب",
+      "what_looks_wrong": "المبلغ كبير جداً، المستلم رقم جديد، السبب 'رسوم استلام الجائزة' معروف بنوع احتيال، التحويل صار بسرعة وفي وقت غير معتاد، وكل هالإشارات تدل على سلوك مريب",
+      "scammer_next_move": "ممكن بعدها يكول إن الجائزة راح تضيع إذا ما تدفع الرسوم فوراً أو يطلب منك الـOTP ويضغط عليك لتسوية بسرعة",
+      "recommended_action": "الأفضل تتأكد من الجائزة عبر القنوات الرسمية وتلغي التحويل إذا ما كنت متأكد",
+      "confidence_level": 1.0,
+      "is_fallback": false
+    },
+    "latency_ms": 1315.63,
+    "pausepoint_state": "CANCELLED_BY_USER",
+    "resolution": "CANCELLED_BY_USER",
+    "outcome": "SCAM_PREVENTED",
+    "user_feedback": "User confirmed scam warning and safely cancelled.",
+    "resolved_at": "2026-10-05T00:03:43.776978+00:00"
+  },
+  {
+    "timestamp": "2026-10-05T00:03:48.142883+00:00",
+    "transaction_id": "LIVE-1791158627",
+    "user_id": "U01",
+    "recipient_phone": "07901234567",
+    "amount_iqd": 5000000.0,
+    "note": "",
+    "risk_score": 1.0,
+    "requires_intervention": true,
+    "triggered_rules": [
+      "RULE_01_NEW_RECIPIENT",
+      "RULE_02_HIGH_VELOCITY",
+      "RULE_03_ABNORMAL_AMOUNT",
+      "RULE_05_SUSPICIOUS_TIME"
+    ],
+    "rule_details": {
+      "RULE_01_NEW_RECIPIENT": "Transaction sent to a new recipient 07901234567",
+      "RULE_02_HIGH_VELOCITY": "4 transfers in last 10 min (threshold ≥ 3)",
+      "RULE_03_ABNORMAL_AMOUNT": "Amount 5,000,000 IQD > 500,000 IQD (2.5× avg 200,000 IQD) to new recipient 07901234567",
+      "RULE_05_SUSPICIOUS_TIME": "Transaction initiated at suspicious time (03:03). Applied a 25% strictness penalty to thresholds."
+    },
+    "ml_anomaly_score": 0.0,
+    "layer2_advice": {
+      "headline": "تحذير: تحويل كبير ومريب",
+      "what_looks_wrong": "المبلغ 5,000,000 دينار، المستلم رقم جديد، التحويلات سريعة لنفس الرقم، الوقت غير معتاد، كل هالأشياء تشكك",
+      "scammer_next_move": "ممكن بعدها يضغط عليك يگول إن الفلوس لازمة الآن أو يطلب OTP بسرعة",
+      "recommended_action": "الأفضل تتأكد من هوية المستلم بطريقه ثانية قبل ما تكمل",
+      "confidence_level": 0.96,
+      "is_fallback": false
+    },
+    "latency_ms": 1141.28,
+    "pausepoint_state": "PROCEEDED_ON_USER_RISK",
+    "resolution": "PROCEEDED_ON_USER_RISK",
+    "outcome": "USER_OVERRIDE_WARNING",
+    "user_feedback": "User overrode safety warning to proceed at own risk.",
+    "resolved_at": "2026-10-05T00:04:21.605200+00:00"
+  },
+  {
+    "timestamp": "2026-10-05T00:05:23.122576+00:00",
+    "transaction_id": "LIVE-1791158721",
+    "user_id": "U01",
+    "recipient_phone": "07901234567",
+    "amount_iqd": 5000000.0,
+    "note": "",
+    "risk_score": 1.0,
+    "requires_intervention": true,
+    "triggered_rules": [
+      "RULE_01_NEW_RECIPIENT",
+      "RULE_02_HIGH_VELOCITY",
+      "RULE_03_ABNORMAL_AMOUNT",
+      "RULE_05_SUSPICIOUS_TIME"
+    ],
+    "rule_details": {
+      "RULE_01_NEW_RECIPIENT": "Transaction sent to a new recipient 07901234567",
+      "RULE_02_HIGH_VELOCITY": "5 transfers in last 10 min (threshold ≥ 3)",
+      "RULE_03_ABNORMAL_AMOUNT": "Amount 5,000,000 IQD > 500,000 IQD (2.5× avg 200,000 IQD) to new recipient 07901234567",
+      "RULE_05_SUSPICIOUS_TIME": "Transaction initiated at suspicious time (03:05). Applied a 25% strictness penalty to thresholds."
+    },
+    "ml_anomaly_score": 0.0,
+    "layer2_advice": {
+      "headline": "تحذير: تحويل مريب",
+      "what_looks_wrong": "تحويل 5,000,000 دينار عراقي لمستلم جديد وبنفس الرقم، المبلغ كبير غير معتاد، تم بسرعة وفي وقت غير مألوف.",
+      "scammer_next_move": "ممكن بعدها يضغط عليك بسرعة ويطلب OTP أو يقول إن العملية ضرورية لتجنب خسارة الفلوس.",
+      "recommended_action": "الأفضل تتأكد من هوية المستلم بوسيلة ثانية قبل ما تكمل التحويل.",
+      "confidence_level": 0.96,
+      "is_fallback": false
+    },
+    "latency_ms": 1176.43,
+    "pausepoint_state": "PROCEEDED_ON_USER_RISK",
+    "resolution": "PROCEEDED_ON_USER_RISK",
+    "outcome": "USER_OVERRIDE_WARNING",
+    "user_feedback": "User overrode safety warning to proceed at own risk.",
+    "resolved_at": "2026-10-05T00:06:38.178838+00:00"
+  },
+  {
+    "timestamp": "2026-10-05T19:07:16.292761+00:00",
+    "transaction_id": "LIVE-1791227234",
+    "user_id": "U01",
+    "recipient_phone": "07901234567",
+    "amount_iqd": 50000.0,
+    "note": "رسوم استلام الجائزة",
+    "risk_score": 0.75,
+    "requires_intervention": true,
+    "triggered_rules": [
+      "RULE_01_NEW_RECIPIENT",
+      "RULE_04_KNOWN_SCAM_FEE"
+    ],
+    "rule_details": {
+      "RULE_01_NEW_RECIPIENT": "Transaction sent to a new recipient 07901234567",
+      "RULE_04_KNOWN_SCAM_FEE": "Amount 50,000 IQD matches catalogued Iraqi scam fee to new recipient 07901234567; Transfer note contains known scam keyword(s): رسوم, جائزة"
+    },
+    "ml_anomaly_score": 0.0,
+    "layer2_advice": {
+      "headline": "تحذير: تحويل مريب",
+      "what_looks_wrong": "المبلغ كبير وموجه لمستلم جديد، والسبب \"رسوم استلام الجائزة\" عادةً يجي ضمن حيل نصب الجائزة، وهذا يطابق إشارات الخطر المكتشفة",
+      "scammer_next_move": "ممكن بعدها يكول إنو لازم تدفع رسوم إضافية أو تسرّع العملية قبل ما يختفي الجائزة، ويضغط عليك بوقت محدود",
+      "recommended_action": "الأفضل تتأكد من صحة الجائزة عبر القنوات الرسمية قبل ما تكمل أي تحويل",
+      "confidence_level": 0.85,
+      "is_fallback": false
+    },
+    "latency_ms": 1432.4,
+    "pausepoint_state": "CANCELLED_BY_USER",
+    "resolution": "CANCELLED_BY_USER",
+    "outcome": "SCAM_PREVENTED",
+    "user_feedback": "User confirmed scam warning and safely cancelled.",
+    "resolved_at": "2026-10-05T19:08:15.353940+00:00"
+  },
+  {
+    "timestamp": "2026-10-05T19:08:24.448397+00:00",
+    "transaction_id": "LIVE-1791227304",
+    "user_id": "U01",
+    "recipient_phone": "07812345678",
+    "amount_iqd": 350000.0,
+    "note": "دفع إيجار الشقة",
+    "risk_score": 0.25,
+    "requires_intervention": false,
+    "triggered_rules": [
+      "RULE_01_NEW_RECIPIENT"
+    ],
+    "rule_details": {
+      "RULE_01_NEW_RECIPIENT": "Transaction sent to a new recipient 07812345678"
+    },
+    "ml_anomaly_score": 0.0,
+    "layer2_advice": null,
+    "latency_ms": 3.42,
+    "pausepoint_state": "APPROVED_AUTO",
+    "resolution": "APPROVED_AUTO",
+    "outcome": "TRANSACTION_CLEAN",
+    "user_feedback": null
+  },
+  {
+    "timestamp": "2026-10-05T19:08:33.086556+00:00",
+    "transaction_id": "LIVE-1791227313",
+    "user_id": "U01",
+    "recipient_phone": "07812345678",
+    "amount_iqd": 350000.0,
+    "note": "دفع إيجار الشقة",
+    "risk_score": 0.25,
+    "requires_intervention": false,
+    "triggered_rules": [
+      "RULE_02_HIGH_VELOCITY"
+    ],
+    "rule_details": {
+      "RULE_02_HIGH_VELOCITY": "3 transfers in last 10 min (threshold ≥ 3)"
+    },
+    "ml_anomaly_score": 0.0,
+    "layer2_advice": null,
+    "latency_ms": 3.07,
+    "pausepoint_state": "APPROVED_AUTO",
+    "resolution": "APPROVED_AUTO",
+    "outcome": "TRANSACTION_CLEAN",
+    "user_feedback": null
+  },
+  {
+    "timestamp": "2026-10-05T19:08:41.257606+00:00",
+    "transaction_id": "LIVE-1791227321",
+    "user_id": "U01",
+    "recipient_phone": "07812345678",
+    "amount_iqd": 350000.0,
+    "note": "دفع إيجار الشقة",
+    "risk_score": 0.25,
+    "requires_intervention": false,
+    "triggered_rules": [
+      "RULE_02_HIGH_VELOCITY"
+    ],
+    "rule_details": {
+      "RULE_02_HIGH_VELOCITY": "4 transfers in last 10 min (threshold ≥ 3)"
+    },
+    "ml_anomaly_score": 0.0,
+    "layer2_advice": null,
+    "latency_ms": 3.15,
+    "pausepoint_state": "APPROVED_AUTO",
+    "resolution": "APPROVED_AUTO",
+    "outcome": "TRANSACTION_CLEAN",
+    "user_feedback": null
+  },
+  {
+    "timestamp": "2026-10-05T19:08:42.576079+00:00",
+    "transaction_id": "LIVE-1791227322",
+    "user_id": "U01",
+    "recipient_phone": "07812345678",
+    "amount_iqd": 350000.0,
+    "note": "دفع إيجار الشقة",
+    "risk_score": 0.25,
+    "requires_intervention": false,
+    "triggered_rules": [
+      "RULE_02_HIGH_VELOCITY"
+    ],
+    "rule_details": {
+      "RULE_02_HIGH_VELOCITY": "5 transfers in last 10 min (threshold ≥ 3)"
+    },
+    "ml_anomaly_score": 0.0,
+    "layer2_advice": null,
+    "latency_ms": 3.06,
+    "pausepoint_state": "APPROVED_AUTO",
+    "resolution": "APPROVED_AUTO",
+    "outcome": "TRANSACTION_CLEAN",
+    "user_feedback": null
+  },
+  {
+    "timestamp": "2026-10-05T19:08:44.100728+00:00",
+    "transaction_id": "LIVE-1791227324",
+    "user_id": "U01",
+    "recipient_phone": "07812345678",
+    "amount_iqd": 350000.0,
+    "note": "دفع إيجار الشقة",
+    "risk_score": 0.25,
+    "requires_intervention": false,
+    "triggered_rules": [
+      "RULE_02_HIGH_VELOCITY"
+    ],
+    "rule_details": {
+      "RULE_02_HIGH_VELOCITY": "6 transfers in last 10 min (threshold ≥ 3)"
+    },
+    "ml_anomaly_score": 0.0,
+    "layer2_advice": null,
+    "latency_ms": 3.13,
+    "pausepoint_state": "APPROVED_AUTO",
+    "resolution": "APPROVED_AUTO",
+    "outcome": "TRANSACTION_CLEAN",
+    "user_feedback": null
+  },
+  {
+    "timestamp": "2026-10-05T19:08:45.414283+00:00",
+    "transaction_id": "LIVE-1791227325",
+    "user_id": "U01",
+    "recipient_phone": "07812345678",
+    "amount_iqd": 350000.0,
+    "note": "دفع إيجار الشقة",
+    "risk_score": 0.25,
+    "requires_intervention": false,
+    "triggered_rules": [
+      "RULE_02_HIGH_VELOCITY"
+    ],
+    "rule_details": {
+      "RULE_02_HIGH_VELOCITY": "7 transfers in last 10 min (threshold ≥ 3)"
+    },
+    "ml_anomaly_score": 0.0,
+    "layer2_advice": null,
+    "latency_ms": 3.26,
+    "pausepoint_state": "APPROVED_AUTO",
+    "resolution": "APPROVED_AUTO",
+    "outcome": "TRANSACTION_CLEAN",
+    "user_feedback": null
+  },
+  {
+    "timestamp": "2026-10-05T19:08:46.834357+00:00",
+    "transaction_id": "LIVE-1791227326",
+    "user_id": "U01",
+    "recipient_phone": "07812345678",
+    "amount_iqd": 350000.0,
+    "note": "دفع إيجار الشقة",
+    "risk_score": 0.25,
+    "requires_intervention": false,
+    "triggered_rules": [
+      "RULE_02_HIGH_VELOCITY"
+    ],
+    "rule_details": {
+      "RULE_02_HIGH_VELOCITY": "9 transfers in last 10 min (threshold ≥ 3)"
+    },
+    "ml_anomaly_score": 0.0,
+    "layer2_advice": null,
+    "latency_ms": 3.12,
+    "pausepoint_state": "APPROVED_AUTO",
+    "resolution": "APPROVED_AUTO",
+    "outcome": "TRANSACTION_CLEAN",
+    "user_feedback": null
+  },
+  {
+    "timestamp": "2026-10-05T19:08:47.668707+00:00",
+    "transaction_id": "LIVE-1791227327",
+    "user_id": "U01",
+    "recipient_phone": "07812345678",
+    "amount_iqd": 350000.0,
+    "note": "دفع إيجار الشقة",
+    "risk_score": 0.25,
+    "requires_intervention": false,
+    "triggered_rules": [
+      "RULE_02_HIGH_VELOCITY"
+    ],
+    "rule_details": {
+      "RULE_02_HIGH_VELOCITY": "10 transfers in last 10 min (threshold ≥ 3)"
+    },
+    "ml_anomaly_score": 0.0,
+    "layer2_advice": null,
+    "latency_ms": 3.34,
+    "pausepoint_state": "APPROVED_AUTO",
+    "resolution": "APPROVED_AUTO",
+    "outcome": "TRANSACTION_CLEAN",
+    "user_feedback": null
+  },
+  {
+    "timestamp": "2026-10-05T19:08:48.290393+00:00",
+    "transaction_id": "LIVE-1791227328",
+    "user_id": "U01",
+    "recipient_phone": "07812345678",
+    "amount_iqd": 350000.0,
+    "note": "دفع إيجار الشقة",
+    "risk_score": 0.25,
+    "requires_intervention": false,
+    "triggered_rules": [
+      "RULE_02_HIGH_VELOCITY"
+    ],
+    "rule_details": {
+      "RULE_02_HIGH_VELOCITY": "11 transfers in last 10 min (threshold ≥ 3)"
+    },
+    "ml_anomaly_score": 0.0,
+    "layer2_advice": null,
+    "latency_ms": 3.03,
+    "pausepoint_state": "APPROVED_AUTO",
+    "resolution": "APPROVED_AUTO",
+    "outcome": "TRANSACTION_CLEAN",
+    "user_feedback": null
+  },
+  {
+    "timestamp": "2026-10-05T19:08:49.557488+00:00",
+    "transaction_id": "LIVE-1791227329",
+    "user_id": "U01",
+    "recipient_phone": "07812345678",
+    "amount_iqd": 350000.0,
+    "note": "دفع إيجار الشقة",
+    "risk_score": 0.25,
+    "requires_intervention": false,
+    "triggered_rules": [
+      "RULE_02_HIGH_VELOCITY"
+    ],
+    "rule_details": {
+      "RULE_02_HIGH_VELOCITY": "12 transfers in last 10 min (threshold ≥ 3)"
+    },
+    "ml_anomaly_score": 0.0,
+    "layer2_advice": null,
+    "latency_ms": 3.33,
+    "pausepoint_state": "APPROVED_AUTO",
+    "resolution": "APPROVED_AUTO",
+    "outcome": "TRANSACTION_CLEAN",
+    "user_feedback": null
+  },
+  {
+    "timestamp": "2026-10-05T19:08:52.567111+00:00",
+    "transaction_id": "LIVE-1791227331",
+    "user_id": "U01",
+    "recipient_phone": "07812345678",
+    "amount_iqd": 350000.0,
+    "note": "دفع إيجار الشقة",
+    "risk_score": 0.5,
+    "requires_intervention": true,
+    "triggered_rules": [
+      "RULE_01_NEW_RECIPIENT",
+      "RULE_02_HIGH_VELOCITY"
+    ],
+    "rule_details": {
+      "RULE_01_NEW_RECIPIENT": "Transaction sent to a new recipient 07812345678",
+      "RULE_02_HIGH_VELOCITY": "13 transfers in last 10 min (threshold ≥ 3)"
+    },
+    "ml_anomaly_score": 0.0,
+    "layer2_advice": {
+      "headline": "تحذير: تحويل كبير لمستلم جديد",
+      "what_looks_wrong": "المبلغ 350,000 دينار وعنوان المستلم جديد، والعملية صارت بسرعة غير طبيعية، وهذا يطابق إشارات الخطر اللي شفناها",
+      "scammer_next_move": "ممكن بعدها يطلب منك تأكيد سريع أو يرسل لك OTP ويقول إن العملية مستعجلة ولازم تكمل حالاً",
+      "recommended_action": "الأفضل تتأكد من هوية المستلم بطريقه ثانية قبل ما تكمل التحويل",
+      "confidence_level": 0.6,
+      "is_fallback": false
+    },
+    "latency_ms": 1124.69,
+    "pausepoint_state": "PROCEEDED_ON_USER_RISK",
+    "resolution": "PROCEEDED_ON_USER_RISK",
+    "outcome": "USER_OVERRIDE_WARNING",
+    "user_feedback": "User overrode safety warning to proceed at own risk.",
+    "resolved_at": "2026-10-05T19:09:34.774202+00:00"
+  }
+]
